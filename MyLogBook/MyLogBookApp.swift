@@ -7,11 +7,31 @@
 
 import SwiftUI
 
+class LogBook: ObservableObject {
+    @Published var logs: [LogInfo] = []
+    
+    // 추가 시 날짜 순으로 입력되어야함
+    func addLog(newLog: LogInfo) {
+        logs.append(newLog)
+    }
+    
+    func deletce(id: Int) {
+        logs.removeAll(where: { $0.id == id })
+    }
+    
+    func getLastLog() -> LogInfo {
+        return logs.last ?? LogInfo()
+    }
+}
+
 @main
 struct MyLogBookApp: App {
+    var myLogBook: LogBook = LogBook()
+    
     var body: some Scene {
         WindowGroup {
-            MainView()
+            HomeView()
+                .environmentObject(myLogBook)
         }
     }
 }

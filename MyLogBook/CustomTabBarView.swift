@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomTabBarView: View {
-    @Binding var clickedView: MainViewType
+    @Binding var clickedView: HomeViewType
 
     var body: some View {
         GeometryReader { geometry in
