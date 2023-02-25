@@ -7,24 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		698D672629A3A9AC00CDC197 /* LogInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D672529A3A9AC00CDC197 /* LogInfo.swift */; };
+		698D672829A3B12000CDC197 /* LogBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D672729A3B12000CDC197 /* LogBookView.swift */; };
+		698D672A29A3B2C300CDC197 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D672929A3B2C300CDC197 /* MainView.swift */; };
+		698D672C29A3B2DB00CDC197 /* AddLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D672B29A3B2DB00CDC197 /* AddLogView.swift */; };
+		698D672E29A3B2ED00CDC197 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D672D29A3B2ED00CDC197 /* MapView.swift */; };
+		698D673029A3B30600CDC197 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D672F29A3B30600CDC197 /* SettingView.swift */; };
+		698D673329A5052100CDC197 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 698D673229A5052100CDC197 /* Alamofire */; };
+		698D673529A5053F00CDC197 /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D673429A5053F00CDC197 /* WeatherClient.swift */; };
+		698D673929A9918700CDC197 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D673829A9918700CDC197 /* Date+Extension.swift */; };
 		699C02AC29571DFB00202D60 /* MyLogBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C02AB29571DFB00202D60 /* MyLogBookApp.swift */; };
 		699C02AE29571DFB00202D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C02AD29571DFB00202D60 /* ContentView.swift */; };
 		699C02B029571DFC00202D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699C02AF29571DFC00202D60 /* Assets.xcassets */; };
 		699C02B329571DFC00202D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699C02B229571DFC00202D60 /* Preview Assets.xcassets */; };
 		699C02BA295720FD00202D60 /* LogEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C02B9295720FD00202D60 /* LogEditView.swift */; };
-		699C02BC2957268A00202D60 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C02BB2957268A00202D60 /* MainView.swift */; };
+		699C02BC2957268A00202D60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C02BB2957268A00202D60 /* HomeView.swift */; };
 		699C02BE2957324B00202D60 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C02BD2957324B00202D60 /* Date+Extension.swift */; };
 		699C02C02957366100202D60 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C02BF2957366100202D60 /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		698D672529A3A9AC00CDC197 /* LogInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInfo.swift; sourceTree = "<group>"; };
+		698D672729A3B12000CDC197 /* LogBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogBookView.swift; sourceTree = "<group>"; };
+		698D672929A3B2C300CDC197 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		698D672B29A3B2DB00CDC197 /* AddLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLogView.swift; sourceTree = "<group>"; };
+		698D672D29A3B2ED00CDC197 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		698D672F29A3B30600CDC197 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		698D673429A5053F00CDC197 /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
+		698D673629A7B9DA00CDC197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		698D673829A9918700CDC197 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		699C02A829571DFB00202D60 /* MyLogBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLogBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		699C02AB29571DFB00202D60 /* MyLogBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogBookApp.swift; sourceTree = "<group>"; };
 		699C02AD29571DFB00202D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		699C02AF29571DFC00202D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699C02B229571DFC00202D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		699C02B9295720FD00202D60 /* LogEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEditView.swift; sourceTree = "<group>"; };
-		699C02BB2957268A00202D60 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		699C02BB2957268A00202D60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		699C02BD2957324B00202D60 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		699C02BF2957366100202D60 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,12 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698D673329A5052100CDC197 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		698D672429A3A98900CDC197 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				698D672529A3A9AC00CDC197 /* LogInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		698D673729A9917500CDC197 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				698D673829A9918700CDC197 /* Date+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		699C029F29571DFB00202D60 = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +94,23 @@
 		699C02AA29571DFB00202D60 /* MyLogBook */ = {
 			isa = PBXGroup;
 			children = (
+				698D673729A9917500CDC197 /* Extension */,
+				698D673629A7B9DA00CDC197 /* Info.plist */,
+				698D672429A3A98900CDC197 /* Model */,
 				699C02AB29571DFB00202D60 /* MyLogBookApp.swift */,
+				698D672D29A3B2ED00CDC197 /* MapView.swift */,
+				698D672F29A3B30600CDC197 /* SettingView.swift */,
+				698D672729A3B12000CDC197 /* LogBookView.swift */,
 				699C02AD29571DFB00202D60 /* ContentView.swift */,
 				699C02AF29571DFC00202D60 /* Assets.xcassets */,
 				699C02B129571DFC00202D60 /* Preview Content */,
 				699C02B9295720FD00202D60 /* LogEditView.swift */,
-				699C02BB2957268A00202D60 /* MainView.swift */,
+				699C02BB2957268A00202D60 /* HomeView.swift */,
 				699C02BD2957324B00202D60 /* Date+Extension.swift */,
 				699C02BF2957366100202D60 /* CustomTabBarView.swift */,
+				698D672929A3B2C300CDC197 /* MainView.swift */,
+				698D672B29A3B2DB00CDC197 /* AddLogView.swift */,
+				698D673429A5053F00CDC197 /* WeatherClient.swift */,
 			);
 			path = MyLogBook;
 			sourceTree = "<group>";
@@ -95,6 +139,9 @@
 			dependencies = (
 			);
 			name = MyLogBook;
+			packageProductDependencies = (
+				698D673229A5052100CDC197 /* Alamofire */,
+			);
 			productName = MyLogBook;
 			productReference = 699C02A829571DFB00202D60 /* MyLogBook.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +170,9 @@
 				Base,
 			);
 			mainGroup = 699C029F29571DFB00202D60;
+			packageReferences = (
+				698D673129A5052100CDC197 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 699C02A929571DFB00202D60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,10 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698D672629A3A9AC00CDC197 /* LogInfo.swift in Sources */,
+				698D672A29A3B2C300CDC197 /* MainView.swift in Sources */,
 				699C02BE2957324B00202D60 /* Date+Extension.swift in Sources */,
+				698D672E29A3B2ED00CDC197 /* MapView.swift in Sources */,
 				699C02AE29571DFB00202D60 /* ContentView.swift in Sources */,
-				699C02BC2957268A00202D60 /* MainView.swift in Sources */,
+				699C02BC2957268A00202D60 /* HomeView.swift in Sources */,
+				698D672829A3B12000CDC197 /* LogBookView.swift in Sources */,
 				699C02C02957366100202D60 /* CustomTabBarView.swift in Sources */,
+				698D672C29A3B2DB00CDC197 /* AddLogView.swift in Sources */,
+				698D673029A3B30600CDC197 /* SettingView.swift in Sources */,
+				698D673529A5053F00CDC197 /* WeatherClient.swift in Sources */,
+				698D673929A9918700CDC197 /* Date+Extension.swift in Sources */,
 				699C02BA295720FD00202D60 /* LogEditView.swift in Sources */,
 				699C02AC29571DFB00202D60 /* MyLogBookApp.swift in Sources */,
 			);
@@ -286,6 +344,7 @@
 				DEVELOPMENT_TEAM = 57B2NJG79J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyLogBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +375,7 @@
 				DEVELOPMENT_TEAM = 57B2NJG79J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyLogBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +417,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		698D673129A5052100CDC197 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		698D673229A5052100CDC197 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 698D673129A5052100CDC197 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 699C02A029571DFB00202D60 /* Project object */;
 }
