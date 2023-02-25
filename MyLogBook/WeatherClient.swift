@@ -10,38 +10,22 @@ import SwiftUI
 
 struct WeatherClient {
     // 초단기 실황
-    static func getPresentWeather(parameters: Parameters) {
+    static func getPresentWeather(parameters: Parameters, onComplete: @escaping ([WeatherItem]) -> Void) {
         var url: String = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst"
         
         var request = AF.request(url,
                                  method: .get,
                                  parameters: parameters,
-                                 encoding: URLEncoding.queryString)
-            .responseDecodable(of: Weather.self) { response in
+                                 encoding: URLEncoding.default)
+            .validate(statusCode: 200..<500)
+            .responseDecodable(of: Result.self) { response in
                 switch response.result {
                 case .success(let success):
+                    onComplete(success.response.body.items.item)
                     print(success)
                 case .failure(let error):
                     print(error)
                 }
             }
     }
-}
-
-struct Weather: Codable {
-    var dataType: String
-    var items: WeatherItems
-}
-
-struct WeatherItems: Codable {
-    var item: [WeatherItem]
-}
-
-struct WeatherItem: Codable {
-    var baseDate: String
-    var baseTime: String
-    var category: String
-    var nx: Int
-    var ny: Int
-    var obsrValue: String
 }
